@@ -9,12 +9,12 @@
 <body>
     <div id="Page1">
         <nav>
-            <a href="#page1"><img src="images/icons/home-7-svgrepo-com.svg" alt="home_icon"></a>
-            <a href="#page2"><img src="images/icons/person-male-svgrepo-com.svg" alt="person"></a>
-            <a href="#page3"><img src="images/icons/file-alt-svgrepo-com.svg" alt="file"></a>
-            <a href="#page4"><img src="images/icons/book-svgrepo-com.svg" alt="porfolio"></a>
-            <a href="#page5"><img src="images/icons/server-svgrepo-com.svg" alt="server"></a>
-            <a href="#page6"><img src="images/icons/mail-svgrepo-com.svg" alt="mail"></a>
+            <a href="#Page1"><img src="images/icons/home-7-svgrepo-com.svg" alt="home_icon"><span class="sp">HOME</span></a>
+            <a href="#page2"><img src="images/icons/person-male-svgrepo-com.svg" alt="person"><span class="sp">ABOUT</span></a>
+            <a href="#page3"><img src="images/icons/file-alt-svgrepo-com.svg" alt="file"><span class="sp">RESUME</span></a>
+            <a href="#page4"><img src="images/icons/book-svgrepo-com.svg" alt="porfolio"><span class="sp">PORTFOLIO</span></a>
+            <a href="#page5"><img src="images/icons/server-svgrepo-com.svg" alt="server"><span class="sp">SERVICES</span></a>
+            <a href="#page6"><img src="images/icons/mail-svgrepo-com.svg" alt="mail"><span class="sp">CONTACT ME</span></a>
         </nav>
     <div id="background">
     <img src="images/profile-img.jpg" alt="profile photo">
@@ -24,10 +24,10 @@
         <h1>Harry</h1>
         <p>I'm a Designer</p>
         <div>
-            <img src="images/icons/twitter-154-svgrepo-com.svg" alt="twitter">
-            <img src="images/icons/facebook-logo-meta-2-svgrepo-com.svg" alt="facebook">
-            <img src="images/icons/instagram-svgrepo-com.svg" alt="insta">
-            <img src="images/icons/linkedin-svgrepo-com.svg" alt="linkedin">
+            <div class="con-logo"><img src="images/icons/twitter-154-svgrepo-com.svg" alt="twitter"></div>
+            <div class="con-logo"><img src="images/icons/facebook-logo-meta-2-svgrepo-com.svg" alt="facebook"></div>
+                <div class="con-logo"><img src="images/icons/instagram-svgrepo-com.svg" alt="insta"></div>
+                    <div class="con-logo"> <img src="images/icons/linkedin-svgrepo-com.svg" alt="linkedin"></div>
         </div>
     </div>
     </div>
@@ -43,16 +43,20 @@
             <div id="content2">
                 <h1>UI/UX DESIGNER AND DEVELOPER</h1>
                 <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</P>
+                <div id="list-flex">
                 <ul>
-                    <li> Birthday: January 1, 1990</li>
-                    <li> Age: 33</li>
-                    <li> Website: www.example.com</li>
-                    <li> Degree: Bachelor of Arts in Design</li>
-                    <li> Phone: +1234567890</li>
-                    <li> Email: example@email.com</li>
-                    <li> City: Your City</li>
-                    <li> Freelance: Available for freelance projects</li>
+                    <li> <span> Birthday:</span> January 1, 1990</li>
+                    <li> <span> Age: </span> 33</li>
+                    <li> <span>Website:</span> www.example.com</li>
+                    <li> <span> Degree:</span> Bachelor of Arts in Design</li>
                 </ul>
+                <ul>
+                    <li> <span> Phone: </span>+1234567890</li>
+                    <li> <span>Email:</span> example@email.com</li>
+                    <li> <span>City:</span> Your City</li>
+                    <li> <span> Freelance:</span> Available for freelance projects</li>
+                </ul>
+                </div>
                 <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
             </div>
         </div>
@@ -64,22 +68,29 @@
 
         <div id="halves">
         <div id="left-half">
+            <div id="up-lef">
             <h2>Summary</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
+            </div>
+            <div id="bot-lef">
             <h2>Education</h2>
             <p>Bachelor of Arts in Design - University of Designville (Year Graduated)</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
         </div>
 
         <div id="right-half">
             <h2>Professional Experience</h2>
 
+            <div id="up-right">
             <h3>Senior Graphic Designer</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
 
+            <div id="bot-right">
             <h3>Graphic Design Specialist</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
         </div>
         </div>
     </div>
@@ -141,6 +152,18 @@
             </div>
           </div>
     </div>
+    <div id="page7">
+        <div id="testin">
+            <div><h1>TESTIMONIALS</h1></div>
+            <div id="photos">
+                <img src="images/testimonials/testimonials-1.jpg" alt="">
+                <img src="images/testimonials/testimonials-2.jpg" alt="">
+                <img src="images/testimonials/testimonials-3.jpg" alt="">
+                <img src="images/testimonials/testimonials-4.jpg" alt="">
+                <img src="images/testimonials/testimonials-5.jpg" alt="">
+            </div>
+          </div>
+    </div>
     <div id="page6">
         <div id="top_part">
             <div id="heading"><h1>CONTACT ME</h1></div>
@@ -161,19 +184,6 @@
                     <p>+91 5552233322</p>
                 </div>
             </div>
-            <!-- <div id="cont-form">
-                <div id="row-f">
-                    <input type="text">
-                    <input type="email">
-                </div>
-                <div>
-                    <input type="text">
-                </div>
-                <div>
-                    <input type="text">
-                </div>
-                <button>SEND MESSAGE</button>
-            </div> -->
             <div id="cont-form">
                 <div id="row-f">
                     <input type="text" name="name" value="Name">
